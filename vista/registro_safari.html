@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+ <html lang= "es">
+ <head>
+  <meta charset="UTF-8">
+  <title>Registrar</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<h1>Formulario de Registro</h1>
+<form action ="login_registrar.php" method="POST" class="form-register"> 
+<h2 class="form__titulo">Crear una cuenta</h2>
+<div class="contenedor-inputs">
+<input type="text" name="nombres" placeholder="Nombres"class="input-48" required>
+<input type="text" name="apellidos" placeholder="Apellidos" class="input-48" required>
+<input type="email" name="correo" placeholder="Correo" class="input-100">
+<input type="date" name="fecha_nacimiento" placeholder="Fecha_Nacimiento"class="input-100" required>
+<input type="text" placeholder="&#128273; Usuario" name="usuario" class="input-48" required>
+<input type="password" placeholder="&#128274; Contraseña" name="contraseña"class="input-48" required>
+<input type="submit" value="Registrarse" name="btnregistrarse" class="btn-registrarse" required>
+
+
+<p class="form__link">¿Ya tienes una cuenta? <a href="login_safari.html">Regresar</a></p>
+
+	</div>
+   </form>
+  </body>
+</html>
+
